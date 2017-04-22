@@ -8,8 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		55C9CEB5C78FD3DF564A772E /* Pods_ClockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889275F38182FB645BE5B059 /* Pods_ClockUITests.framework */; };
+		BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */; };
+		BC38E7911EAB3DD100EDB138 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7901EAB3DD100EDB138 /* iflyMSC.framework */; };
+		BC38E7931EAB3EBC00EDB138 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7921EAB3EBC00EDB138 /* libz.tbd */; };
+		BC38E7951EAB3EC300EDB138 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7941EAB3EC300EDB138 /* AVFoundation.framework */; };
+		BC38E7971EAB3ECD00EDB138 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7961EAB3ECD00EDB138 /* SystemConfiguration.framework */; };
+		BC38E7991EAB3ED900EDB138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7981EAB3ED900EDB138 /* Foundation.framework */; };
+		BC38E79B1EAB3EE700EDB138 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E79A1EAB3EE700EDB138 /* CoreTelephony.framework */; };
+		BC38E79D1EAB3EEF00EDB138 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E79C1EAB3EEF00EDB138 /* AudioToolbox.framework */; };
+		BC38E79F1EAB3EF700EDB138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E79E1EAB3EF700EDB138 /* UIKit.framework */; };
+		BC38E7A11EAB3EFF00EDB138 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A01EAB3EFF00EDB138 /* CoreLocation.framework */; };
+		BC38E7A31EAB3F0600EDB138 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A21EAB3F0600EDB138 /* Contacts.framework */; };
+		BC38E7A51EAB3F0D00EDB138 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A41EAB3F0D00EDB138 /* AddressBook.framework */; };
+		BC38E7A71EAB3F1500EDB138 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A61EAB3F1500EDB138 /* QuartzCore.framework */; };
+		BC38E7A91EAB3F1C00EDB138 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A81EAB3F1C00EDB138 /* CoreGraphics.framework */; };
+		BC38E7AB1EAB3F2600EDB138 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7AA1EAB3F2600EDB138 /* libc++.tbd */; };
+		BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38E7B11EAB4DBF00EDB138 /* StringExtension.swift */; };
 		BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5713791EAB0A6A00A74699 /* AppDelegate.swift */; };
-		BC57137C1EAB0A6A00A74699 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57137B1EAB0A6A00A74699 /* MainViewController.swift */; };
 		BC57137F1EAB0A6A00A74699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC57137D1EAB0A6A00A74699 /* Main.storyboard */; };
 		BC5713811EAB0A6A00A74699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5713801EAB0A6A00A74699 /* Assets.xcassets */; };
 		BC5713841EAB0A6A00A74699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5713821EAB0A6A00A74699 /* LaunchScreen.storyboard */; };
@@ -45,9 +60,25 @@
 		889275F38182FB645BE5B059 /* Pods_ClockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C2CE11CF40DB408990FCEA /* Pods-Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clock/Pods-Clock.release.xcconfig"; sourceTree = "<group>"; };
 		B38E55DF350D8413DF71057A /* Pods-ClockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClockTests/Pods-ClockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BC38E7901EAB3DD100EDB138 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		BC38E7921EAB3EBC00EDB138 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		BC38E7941EAB3EC300EDB138 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC38E7961EAB3ECD00EDB138 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BC38E7981EAB3ED900EDB138 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC38E79A1EAB3EE700EDB138 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		BC38E79C1EAB3EEF00EDB138 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BC38E79E1EAB3EF700EDB138 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BC38E7A01EAB3EFF00EDB138 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BC38E7A21EAB3F0600EDB138 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		BC38E7A41EAB3F0D00EDB138 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		BC38E7A61EAB3F1500EDB138 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC38E7A81EAB3F1C00EDB138 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BC38E7AA1EAB3F2600EDB138 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		BC38E7AC1EAB415600EDB138 /* Clock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clock-Bridging-Header.h"; sourceTree = "<group>"; };
+		BC38E7B11EAB4DBF00EDB138 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		BC5713761EAB0A6A00A74699 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5713791EAB0A6A00A74699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC57137B1EAB0A6A00A74699 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BC57137E1EAB0A6A00A74699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC5713801EAB0A6A00A74699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC5713831EAB0A6A00A74699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +97,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC38E7AB1EAB3F2600EDB138 /* libc++.tbd in Frameworks */,
+				BC38E7A91EAB3F1C00EDB138 /* CoreGraphics.framework in Frameworks */,
+				BC38E7A71EAB3F1500EDB138 /* QuartzCore.framework in Frameworks */,
+				BC38E7A51EAB3F0D00EDB138 /* AddressBook.framework in Frameworks */,
+				BC38E7A31EAB3F0600EDB138 /* Contacts.framework in Frameworks */,
+				BC38E7A11EAB3EFF00EDB138 /* CoreLocation.framework in Frameworks */,
+				BC38E79F1EAB3EF700EDB138 /* UIKit.framework in Frameworks */,
+				BC38E79D1EAB3EEF00EDB138 /* AudioToolbox.framework in Frameworks */,
+				BC38E79B1EAB3EE700EDB138 /* CoreTelephony.framework in Frameworks */,
+				BC38E7991EAB3ED900EDB138 /* Foundation.framework in Frameworks */,
+				BC38E7971EAB3ECD00EDB138 /* SystemConfiguration.framework in Frameworks */,
+				BC38E7951EAB3EC300EDB138 /* AVFoundation.framework in Frameworks */,
+				BC38E7931EAB3EBC00EDB138 /* libz.tbd in Frameworks */,
+				BC38E7911EAB3DD100EDB138 /* iflyMSC.framework in Frameworks */,
 				EED22CC363DB3D44E1E52E80 /* Pods_Clock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +137,19 @@
 		1E6E2584ED00A04F7DE45FB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BC38E7AA1EAB3F2600EDB138 /* libc++.tbd */,
+				BC38E7A81EAB3F1C00EDB138 /* CoreGraphics.framework */,
+				BC38E7A61EAB3F1500EDB138 /* QuartzCore.framework */,
+				BC38E7A41EAB3F0D00EDB138 /* AddressBook.framework */,
+				BC38E7A21EAB3F0600EDB138 /* Contacts.framework */,
+				BC38E7A01EAB3EFF00EDB138 /* CoreLocation.framework */,
+				BC38E79E1EAB3EF700EDB138 /* UIKit.framework */,
+				BC38E79C1EAB3EEF00EDB138 /* AudioToolbox.framework */,
+				BC38E79A1EAB3EE700EDB138 /* CoreTelephony.framework */,
+				BC38E7981EAB3ED900EDB138 /* Foundation.framework */,
+				BC38E7961EAB3ECD00EDB138 /* SystemConfiguration.framework */,
+				BC38E7941EAB3EC300EDB138 /* AVFoundation.framework */,
+				BC38E7921EAB3EBC00EDB138 /* libz.tbd */,
 				241B68800228A66D7A0D48B7 /* Pods_Clock.framework */,
 				4401763A7DE1A07DCE1F0EEA /* Pods_ClockTests.framework */,
 				889275F38182FB645BE5B059 /* Pods_ClockUITests.framework */,
@@ -110,6 +168,44 @@
 				28DB6180F2F6706E8786D231 /* Pods-ClockUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC38E78A1EAB3D8500EDB138 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BC38E7901EAB3DD100EDB138 /* iflyMSC.framework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		BC38E78B1EAB3DA200EDB138 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BC38E78C1EAB3DA200EDB138 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BC38E78D1EAB3DA200EDB138 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BC38E7B01EAB4DB400EDB138 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BC38E7B11EAB4DBF00EDB138 /* StringExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		BC57136D1EAB0A6A00A74699 = {
@@ -137,12 +233,17 @@
 		BC5713781EAB0A6A00A74699 /* Clock */ = {
 			isa = PBXGroup;
 			children = (
+				BC38E78B1EAB3DA200EDB138 /* Controller */,
+				BC38E78C1EAB3DA200EDB138 /* Model */,
+				BC38E78D1EAB3DA200EDB138 /* View */,
+				BC38E7B01EAB4DB400EDB138 /* Extension */,
+				BC38E78A1EAB3D8500EDB138 /* Vendor */,
 				BC5713791EAB0A6A00A74699 /* AppDelegate.swift */,
-				BC57137B1EAB0A6A00A74699 /* MainViewController.swift */,
 				BC57137D1EAB0A6A00A74699 /* Main.storyboard */,
 				BC5713801EAB0A6A00A74699 /* Assets.xcassets */,
 				BC5713821EAB0A6A00A74699 /* LaunchScreen.storyboard */,
 				BC5713851EAB0A6A00A74699 /* Info.plist */,
+				BC38E7AC1EAB415600EDB138 /* Clock-Bridging-Header.h */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -243,6 +344,7 @@
 					BC5713751EAB0A6A00A74699 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = 5LFK4YAZVE;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					BC5713891EAB0A6A00A74699 = {
@@ -449,8 +551,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC57137C1EAB0A6A00A74699 /* MainViewController.swift in Sources */,
 				BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */,
+				BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */,
+				BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -603,12 +706,20 @@
 			baseConfigurationReference = C697A21132F771A570394103 /* Pods-Clock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5LFK4YAZVE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Clock/Vendor",
+				);
 				INFOPLIST_FILE = Clock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangrunliang.app.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Clock/Clock-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -618,12 +729,19 @@
 			baseConfigurationReference = 99C2CE11CF40DB408990FCEA /* Pods-Clock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 5LFK4YAZVE;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Clock/Vendor",
+				);
 				INFOPLIST_FILE = Clock/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangrunliang.app.Clock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Clock/Clock-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
