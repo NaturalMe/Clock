@@ -32,22 +32,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i2-vU-6Im">
-                                <rect key="frame" x="192" y="461" width="31" height="30"/>
-                                <state key="normal" title="开始"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vsU-PK-EVh">
+                                <rect key="frame" x="50" y="462.66666666666669" width="314" height="29"/>
+                                <segments>
+                                    <segment title="2"/>
+                                    <segment title="5"/>
+                                    <segment title="10"/>
+                                    <segment title="30"/>
+                                    <segment title="60"/>
+                                </segments>
                                 <connections>
-                                    <action selector="tapStartButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BX9-xg-amU"/>
+                                    <action selector="segmentedControlValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ehg-lq-8jG"/>
                                 </connections>
-                            </button>
+                            </segmentedControl>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="POg-pI-6JQ">
+                                <rect key="frame" x="183" y="582.33333333333337" width="51" height="31"/>
+                                <connections>
+                                    <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jew-fc-25R"/>
+                                </connections>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="POg-pI-6JQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2N9-71-EBS"/>
                             <constraint firstItem="UXw-B2-w81" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5mW-Fy-gEa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vsU-PK-EVh" secondAttribute="trailing" constant="30" id="AqW-iI-sOp"/>
+                            <constraint firstItem="vsU-PK-EVh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="QNf-Xo-xKE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="UXw-B2-w81" secondAttribute="trailing" constant="30" id="STe-2a-zZT"/>
                             <constraint firstItem="UXw-B2-w81" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VXD-WP-rfY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vsU-PK-EVh" secondAttribute="bottom" multiplier="3:2" id="WCY-Oh-5U1"/>
                             <constraint firstItem="UXw-B2-w81" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Zt2-ra-e6f"/>
-                            <constraint firstItem="3i2-vU-6Im" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="giI-PW-EOM"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3i2-vU-6Im" secondAttribute="bottom" multiplier="1.5" id="rrw-CM-VD6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="POg-pI-6JQ" secondAttribute="bottom" multiplier="1.2" id="ygk-aJ-byD"/>
                         </constraints>
                     </view>
                     <connections>
