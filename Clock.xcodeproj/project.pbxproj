@@ -9,20 +9,6 @@
 /* Begin PBXBuildFile section */
 		55C9CEB5C78FD3DF564A772E /* Pods_ClockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889275F38182FB645BE5B059 /* Pods_ClockUITests.framework */; };
 		BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */; };
-		BC38E7911EAB3DD100EDB138 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7901EAB3DD100EDB138 /* iflyMSC.framework */; };
-		BC38E7931EAB3EBC00EDB138 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7921EAB3EBC00EDB138 /* libz.tbd */; };
-		BC38E7951EAB3EC300EDB138 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7941EAB3EC300EDB138 /* AVFoundation.framework */; };
-		BC38E7971EAB3ECD00EDB138 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7961EAB3ECD00EDB138 /* SystemConfiguration.framework */; };
-		BC38E7991EAB3ED900EDB138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7981EAB3ED900EDB138 /* Foundation.framework */; };
-		BC38E79B1EAB3EE700EDB138 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E79A1EAB3EE700EDB138 /* CoreTelephony.framework */; };
-		BC38E79D1EAB3EEF00EDB138 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E79C1EAB3EEF00EDB138 /* AudioToolbox.framework */; };
-		BC38E79F1EAB3EF700EDB138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E79E1EAB3EF700EDB138 /* UIKit.framework */; };
-		BC38E7A11EAB3EFF00EDB138 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A01EAB3EFF00EDB138 /* CoreLocation.framework */; };
-		BC38E7A31EAB3F0600EDB138 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A21EAB3F0600EDB138 /* Contacts.framework */; };
-		BC38E7A51EAB3F0D00EDB138 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A41EAB3F0D00EDB138 /* AddressBook.framework */; };
-		BC38E7A71EAB3F1500EDB138 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A61EAB3F1500EDB138 /* QuartzCore.framework */; };
-		BC38E7A91EAB3F1C00EDB138 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7A81EAB3F1C00EDB138 /* CoreGraphics.framework */; };
-		BC38E7AB1EAB3F2600EDB138 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BC38E7AA1EAB3F2600EDB138 /* libc++.tbd */; };
 		BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38E7B11EAB4DBF00EDB138 /* StringExtension.swift */; };
 		BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5713791EAB0A6A00A74699 /* AppDelegate.swift */; };
 		BC57137F1EAB0A6A00A74699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC57137D1EAB0A6A00A74699 /* Main.storyboard */; };
@@ -30,6 +16,7 @@
 		BC5713841EAB0A6A00A74699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5713821EAB0A6A00A74699 /* LaunchScreen.storyboard */; };
 		BC57138F1EAB0A6A00A74699 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57138E1EAB0A6A00A74699 /* ClockTests.swift */; };
 		BC57139A1EAB0A6A00A74699 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5713991EAB0A6A00A74699 /* ClockUITests.swift */; };
+		BCC57E391EB08B55007DCE51 /* InkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC57E381EB08B55007DCE51 /* InkViewController.swift */; };
 		E9B888068BF6F186096713F7 /* Pods_ClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4401763A7DE1A07DCE1F0EEA /* Pods_ClockTests.framework */; };
 		EED22CC363DB3D44E1E52E80 /* Pods_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241B68800228A66D7A0D48B7 /* Pods_Clock.framework */; };
 /* End PBXBuildFile section */
@@ -61,7 +48,6 @@
 		99C2CE11CF40DB408990FCEA /* Pods-Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Clock/Pods-Clock.release.xcconfig"; sourceTree = "<group>"; };
 		B38E55DF350D8413DF71057A /* Pods-ClockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClockTests/Pods-ClockTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		BC38E7901EAB3DD100EDB138 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		BC38E7921EAB3EBC00EDB138 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		BC38E7941EAB3EC300EDB138 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		BC38E7961EAB3ECD00EDB138 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -89,6 +75,7 @@
 		BC5713951EAB0A6A00A74699 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5713991EAB0A6A00A74699 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
 		BC57139B1EAB0A6A00A74699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCC57E381EB08B55007DCE51 /* InkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkViewController.swift; sourceTree = "<group>"; };
 		C697A21132F771A570394103 /* Pods-Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clock/Pods-Clock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,20 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC38E7AB1EAB3F2600EDB138 /* libc++.tbd in Frameworks */,
-				BC38E7A91EAB3F1C00EDB138 /* CoreGraphics.framework in Frameworks */,
-				BC38E7A71EAB3F1500EDB138 /* QuartzCore.framework in Frameworks */,
-				BC38E7A51EAB3F0D00EDB138 /* AddressBook.framework in Frameworks */,
-				BC38E7A31EAB3F0600EDB138 /* Contacts.framework in Frameworks */,
-				BC38E7A11EAB3EFF00EDB138 /* CoreLocation.framework in Frameworks */,
-				BC38E79F1EAB3EF700EDB138 /* UIKit.framework in Frameworks */,
-				BC38E79D1EAB3EEF00EDB138 /* AudioToolbox.framework in Frameworks */,
-				BC38E79B1EAB3EE700EDB138 /* CoreTelephony.framework in Frameworks */,
-				BC38E7991EAB3ED900EDB138 /* Foundation.framework in Frameworks */,
-				BC38E7971EAB3ECD00EDB138 /* SystemConfiguration.framework in Frameworks */,
-				BC38E7951EAB3EC300EDB138 /* AVFoundation.framework in Frameworks */,
-				BC38E7931EAB3EBC00EDB138 /* libz.tbd in Frameworks */,
-				BC38E7911EAB3DD100EDB138 /* iflyMSC.framework in Frameworks */,
 				EED22CC363DB3D44E1E52E80 /* Pods_Clock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -170,18 +143,11 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BC38E78A1EAB3D8500EDB138 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				BC38E7901EAB3DD100EDB138 /* iflyMSC.framework */,
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
 		BC38E78B1EAB3DA200EDB138 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */,
+				BCC57E381EB08B55007DCE51 /* InkViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,7 +203,6 @@
 				BC38E78C1EAB3DA200EDB138 /* Model */,
 				BC38E78D1EAB3DA200EDB138 /* View */,
 				BC38E7B01EAB4DB400EDB138 /* Extension */,
-				BC38E78A1EAB3D8500EDB138 /* Vendor */,
 				BC5713791EAB0A6A00A74699 /* AppDelegate.swift */,
 				BC57137D1EAB0A6A00A74699 /* Main.storyboard */,
 				BC5713801EAB0A6A00A74699 /* Assets.xcassets */,
@@ -554,6 +519,7 @@
 				BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */,
 				BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */,
 				BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */,
+				BCC57E391EB08B55007DCE51 /* InkViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

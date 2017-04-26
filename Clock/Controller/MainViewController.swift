@@ -8,6 +8,7 @@
 
 import UIKit
 import LTMorphingLabel
+import Speech
 
 class MainViewController: UIViewController {
 
@@ -74,10 +75,8 @@ class MainViewController: UIViewController {
         var ss = array[2]
         
         let nowSecond = Int(ss)!
-        print("========")
-        print(nowSecond)
-        print(second)
-        print(nowSecond % second)
+
+        
         guard nowSecond % second == 0 else {
             return
         }
