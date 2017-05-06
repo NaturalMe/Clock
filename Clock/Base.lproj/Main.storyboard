@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lrX-nt-BYh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="lrX-nt-BYh">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="duanNing.ttf">
+            <string>-</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -33,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vsU-PK-EVh">
-                                <rect key="frame" x="50" y="462.66666666666669" width="314" height="29"/>
+                                <rect key="frame" x="50" y="463" width="314" height="29"/>
                                 <segments>
                                     <segment title="2"/>
                                     <segment title="5"/>
@@ -46,7 +51,7 @@
                                 </connections>
                             </segmentedControl>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="POg-pI-6JQ">
-                                <rect key="frame" x="182.66666666666666" y="582.33333333333337" width="51" height="31"/>
+                                <rect key="frame" x="183" y="582" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="jew-fc-25R"/>
                                 </connections>
@@ -88,25 +93,25 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景2" translatesAutoresizingMaskIntoConstraints="NO" id="VRC-Td-08Y">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="dzu-Vz-sjb" userLabel="小时-十位">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="dzu-Vz-sjb" userLabel="小时-十位">
                                 <rect key="frame" x="20" y="417" width="54" height="64"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dzu-Vz-sjb" secondAttribute="height" multiplier="179:215" id="0ID-Lc-BQr"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="46s-mP-6h5" userLabel="小时-个位">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="6" translatesAutoresizingMaskIntoConstraints="NO" id="46s-mP-6h5" userLabel="小时-个位">
                                 <rect key="frame" x="74" y="417" width="54" height="64"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="CVw-6n-SV3">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8" translatesAutoresizingMaskIntoConstraints="NO" id="CVw-6n-SV3">
                                 <rect key="frame" x="340" y="417" width="54" height="64"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="CVz-sl-o0u" userLabel="秒-十位">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="4" translatesAutoresizingMaskIntoConstraints="NO" id="CVz-sl-o0u" userLabel="秒-十位">
                                 <rect key="frame" x="286" y="417" width="54" height="64"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="lgs-wp-FQd">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="lgs-wp-FQd">
                                 <rect key="frame" x="153" y="417" width="54" height="64"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="8TJ-Mt-tQ2">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5" translatesAutoresizingMaskIntoConstraints="NO" id="8TJ-Mt-tQ2">
                                 <rect key="frame" x="207" y="417" width="54" height="64"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ohx-EP-gRA">
@@ -121,6 +126,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yuk-3L-QKA">
+                                <rect key="frame" x="315.33333333333331" y="60" width="60" height="46"/>
+                                <fontDescription key="fontDescription" name="-" family="(" pointSize="30"/>
+                                <state key="normal" title="播报">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapSpeckButton:" destination="lrX-nt-BYh" eventType="touchUpInside" id="Hfb-BK-53s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bN-Ab-pJu">
+                                <rect key="frame" x="315.33333333333331" y="114" width="60" height="46"/>
+                                <fontDescription key="fontDescription" name="-" family="(" pointSize="30"/>
+                                <state key="normal" title="频率">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="tapFrequencyButton:" destination="lrX-nt-BYh" eventType="touchUpInside" id="RiP-FV-Nf9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -128,6 +153,7 @@
                             <constraint firstItem="dzu-Vz-sjb" firstAttribute="width" secondItem="VRC-Td-08Y" secondAttribute="width" multiplier="0.13" id="0t1-vJ-hd6"/>
                             <constraint firstAttribute="trailing" secondItem="VRC-Td-08Y" secondAttribute="trailing" id="2Oy-Je-Qvf"/>
                             <constraint firstItem="VRC-Td-08Y" firstAttribute="leading" secondItem="a4f-XC-kAE" secondAttribute="leading" id="2d8-gt-orK"/>
+                            <constraint firstItem="3bN-Ab-pJu" firstAttribute="top" secondItem="Yuk-3L-QKA" secondAttribute="bottom" constant="8" id="7Ku-SX-nRm"/>
                             <constraint firstItem="CVz-sl-o0u" firstAttribute="centerY" secondItem="dzu-Vz-sjb" secondAttribute="centerY" id="8JJ-KR-eng"/>
                             <constraint firstItem="ohx-EP-gRA" firstAttribute="leading" secondItem="46s-mP-6h5" secondAttribute="trailing" id="8wf-YE-jV3"/>
                             <constraint firstItem="lgs-wp-FQd" firstAttribute="centerY" secondItem="dzu-Vz-sjb" secondAttribute="centerY" id="A20-uI-pNz"/>
@@ -142,13 +168,16 @@
                             <constraint firstItem="bSU-KO-3t0" firstAttribute="centerY" secondItem="dzu-Vz-sjb" secondAttribute="centerY" id="Pxl-ix-tk3"/>
                             <constraint firstItem="lgs-wp-FQd" firstAttribute="centerX" secondItem="a4f-XC-kAE" secondAttribute="centerX" multiplier="0.87" id="QRf-PB-Flz"/>
                             <constraint firstItem="CVw-6n-SV3" firstAttribute="centerY" secondItem="dzu-Vz-sjb" secondAttribute="centerY" id="QpS-np-noz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yuk-3L-QKA" secondAttribute="trailing" multiplier="1.05" id="Rkn-qY-rlp"/>
                             <constraint firstItem="lgs-wp-FQd" firstAttribute="width" secondItem="dzu-Vz-sjb" secondAttribute="width" id="Sj1-SQ-WFZ"/>
                             <constraint firstItem="46s-mP-6h5" firstAttribute="leading" secondItem="dzu-Vz-sjb" secondAttribute="trailing" id="Snp-ch-BUM"/>
+                            <constraint firstItem="3bN-Ab-pJu" firstAttribute="centerX" secondItem="Yuk-3L-QKA" secondAttribute="centerX" id="TMI-LZ-AYT"/>
                             <constraint firstItem="46s-mP-6h5" firstAttribute="height" secondItem="dzu-Vz-sjb" secondAttribute="height" id="UbA-7Q-Gy8"/>
                             <constraint firstItem="bSU-KO-3t0" firstAttribute="height" secondItem="dzu-Vz-sjb" secondAttribute="height" id="Vvm-Mv-PXe"/>
                             <constraint firstItem="8TJ-Mt-tQ2" firstAttribute="centerX" secondItem="a4f-XC-kAE" secondAttribute="centerX" multiplier="1.13" id="Wrw-eb-TzV"/>
                             <constraint firstItem="CVw-6n-SV3" firstAttribute="height" secondItem="dzu-Vz-sjb" secondAttribute="height" id="YK7-3o-bb7"/>
                             <constraint firstItem="CVz-sl-o0u" firstAttribute="leading" secondItem="bSU-KO-3t0" secondAttribute="trailing" id="YMO-dv-qeZ"/>
+                            <constraint firstItem="Yuk-3L-QKA" firstAttribute="top" secondItem="caq-34-RKG" secondAttribute="bottom" multiplier="3" id="aFB-rN-Ihp"/>
                             <constraint firstItem="8TJ-Mt-tQ2" firstAttribute="height" secondItem="dzu-Vz-sjb" secondAttribute="height" id="bfI-6X-XU7"/>
                             <constraint firstItem="bSU-KO-3t0" firstAttribute="leading" secondItem="8TJ-Mt-tQ2" secondAttribute="trailing" id="cMT-zB-NjX"/>
                             <constraint firstItem="ohx-EP-gRA" firstAttribute="centerY" secondItem="dzu-Vz-sjb" secondAttribute="centerY" id="g1G-4j-thZ"/>
@@ -161,6 +190,16 @@
                             <constraint firstItem="CVz-sl-o0u" firstAttribute="height" secondItem="dzu-Vz-sjb" secondAttribute="height" id="zuu-LB-t5g"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="frequencyButton" destination="3bN-Ab-pJu" id="mq7-ix-qGm"/>
+                        <outlet property="hourTensDigit" destination="dzu-Vz-sjb" id="Sxz-aY-uhc"/>
+                        <outlet property="hourUnitsDigit" destination="46s-mP-6h5" id="7IO-87-UMw"/>
+                        <outlet property="minuteTenDigit" destination="lgs-wp-FQd" id="1xL-OM-VaS"/>
+                        <outlet property="minuteUnitsDigit" destination="8TJ-Mt-tQ2" id="fg6-5i-wmM"/>
+                        <outlet property="secondTenDigit" destination="CVz-sl-o0u" id="aab-pG-iIP"/>
+                        <outlet property="secondUnitsDigit" destination="CVw-6n-SV3" id="cVX-PX-GWv"/>
+                        <outlet property="speckButton" destination="Yuk-3L-QKA" id="WfH-fu-uVe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYN-ls-DhI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

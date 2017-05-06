@@ -9,6 +9,9 @@ target 'Clock' do
 
   # Pods for Clock
   pod 'LTMorphingLabel'
+  pod 'DropDown'
+  pod 'R.swift'
+  pod 'pop'
   
   target 'ClockTests' do
     inherit! :search_paths

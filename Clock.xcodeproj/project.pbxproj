@@ -10,12 +10,15 @@
 		55C9CEB5C78FD3DF564A772E /* Pods_ClockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889275F38182FB645BE5B059 /* Pods_ClockUITests.framework */; };
 		BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38E78E1EAB3DB200EDB138 /* MainViewController.swift */; };
 		BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC38E7B11EAB4DBF00EDB138 /* StringExtension.swift */; };
+		BC4A88F91EBD762B007F93BB /* duanNing.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BC4A88F81EBD7623007F93BB /* duanNing.ttf */; };
+		BC4A88FC1EBD78A9007F93BB /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC4A88FB1EBD78A9007F93BB /* R.generated.swift */; };
 		BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5713791EAB0A6A00A74699 /* AppDelegate.swift */; };
 		BC57137F1EAB0A6A00A74699 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC57137D1EAB0A6A00A74699 /* Main.storyboard */; };
 		BC5713811EAB0A6A00A74699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC5713801EAB0A6A00A74699 /* Assets.xcassets */; };
 		BC5713841EAB0A6A00A74699 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC5713821EAB0A6A00A74699 /* LaunchScreen.storyboard */; };
 		BC57138F1EAB0A6A00A74699 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC57138E1EAB0A6A00A74699 /* ClockTests.swift */; };
 		BC57139A1EAB0A6A00A74699 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5713991EAB0A6A00A74699 /* ClockUITests.swift */; };
+		BC86BE6B1EBDA95E008A81BB /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86BE6A1EBDA95E008A81BB /* Speech.swift */; };
 		BCC57E391EB08B55007DCE51 /* InkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC57E381EB08B55007DCE51 /* InkViewController.swift */; };
 		E9B888068BF6F186096713F7 /* Pods_ClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4401763A7DE1A07DCE1F0EEA /* Pods_ClockTests.framework */; };
 		EED22CC363DB3D44E1E52E80 /* Pods_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241B68800228A66D7A0D48B7 /* Pods_Clock.framework */; };
@@ -63,6 +66,8 @@
 		BC38E7AA1EAB3F2600EDB138 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		BC38E7AC1EAB415600EDB138 /* Clock-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clock-Bridging-Header.h"; sourceTree = "<group>"; };
 		BC38E7B11EAB4DBF00EDB138 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BC4A88F81EBD7623007F93BB /* duanNing.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = duanNing.ttf; sourceTree = "<group>"; };
+		BC4A88FB1EBD78A9007F93BB /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		BC5713761EAB0A6A00A74699 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5713791EAB0A6A00A74699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC57137E1EAB0A6A00A74699 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 		BC5713951EAB0A6A00A74699 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC5713991EAB0A6A00A74699 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
 		BC57139B1EAB0A6A00A74699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC86BE6A1EBDA95E008A81BB /* Speech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 		BCC57E381EB08B55007DCE51 /* InkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkViewController.swift; sourceTree = "<group>"; };
 		C697A21132F771A570394103 /* Pods-Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clock/Pods-Clock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -203,12 +209,15 @@
 				BC38E78C1EAB3DA200EDB138 /* Model */,
 				BC38E78D1EAB3DA200EDB138 /* View */,
 				BC38E7B01EAB4DB400EDB138 /* Extension */,
+				BC7D11661EB82235000CDBF7 /* Font */,
+				BC86BE691EBDA8D1008A81BB /* Speech */,
 				BC5713791EAB0A6A00A74699 /* AppDelegate.swift */,
 				BC57137D1EAB0A6A00A74699 /* Main.storyboard */,
 				BC5713801EAB0A6A00A74699 /* Assets.xcassets */,
 				BC5713821EAB0A6A00A74699 /* LaunchScreen.storyboard */,
 				BC5713851EAB0A6A00A74699 /* Info.plist */,
 				BC38E7AC1EAB415600EDB138 /* Clock-Bridging-Header.h */,
+				BC4A88FB1EBD78A9007F93BB /* R.generated.swift */,
 			);
 			path = Clock;
 			sourceTree = "<group>";
@@ -231,6 +240,22 @@
 			path = ClockUITests;
 			sourceTree = "<group>";
 		};
+		BC7D11661EB82235000CDBF7 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BC4A88F81EBD7623007F93BB /* duanNing.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		BC86BE691EBDA8D1008A81BB /* Speech */ = {
+			isa = PBXGroup;
+			children = (
+				BC86BE6A1EBDA95E008A81BB /* Speech.swift */,
+			);
+			path = Speech;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,6 +264,7 @@
 			buildConfigurationList = BC57139E1EAB0A6A00A74699 /* Build configuration list for PBXNativeTarget "Clock" */;
 			buildPhases = (
 				CA931BABEC09478FA4C7A672 /* [CP] Check Pods Manifest.lock */,
+				BC4A88FA1EBD7843007F93BB /* ShellScript */,
 				BC5713721EAB0A6A00A74699 /* Sources */,
 				BC5713731EAB0A6A00A74699 /* Frameworks */,
 				BC5713741EAB0A6A00A74699 /* Resources */,
@@ -351,6 +377,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC4A88F91EBD762B007F93BB /* duanNing.ttf in Resources */,
 				BC5713841EAB0A6A00A74699 /* LaunchScreen.storyboard in Resources */,
 				BC5713811EAB0A6A00A74699 /* Assets.xcassets in Resources */,
 				BC57137F1EAB0A6A00A74699 /* Main.storyboard in Resources */,
@@ -479,6 +506,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		BC4A88FA1EBD7843007F93BB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
 		CA931BABEC09478FA4C7A672 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -518,6 +558,8 @@
 			files = (
 				BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */,
 				BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */,
+				BC4A88FC1EBD78A9007F93BB /* R.generated.swift in Sources */,
+				BC86BE6B1EBDA95E008A81BB /* Speech.swift in Sources */,
 				BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */,
 				BCC57E391EB08B55007DCE51 /* InkViewController.swift in Sources */,
 			);

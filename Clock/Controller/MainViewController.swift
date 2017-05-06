@@ -38,7 +38,7 @@ class MainViewController: UIViewController {
     var second: Int = 2
     var timer: Timer!
     
-    //var iFlySpeechSynthesizer: IFlySpeechSynthesizer!
+    
     
     
     
@@ -48,15 +48,6 @@ class MainViewController: UIViewController {
         timeLabel.morphingEffect = .fall
         dateFormatter.dateFormat = "HH:mm:ss"
         updateTime()
-        
-        
-        
-//        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { (t: Timer) in
-//            self.updateTime()
-//            if self.isSpeaking {
-//                self.speckTime()
-//            }
-//        }
         
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(speckTime), userInfo: nil, repeats: true)
     }

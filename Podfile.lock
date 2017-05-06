@@ -1,12 +1,24 @@
 PODS:
+  - DropDown (2)
   - LTMorphingLabel (0.5.0)
+  - pop (1.0.9)
+  - R.swift (3.2.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
 
 DEPENDENCIES:
+  - DropDown
   - LTMorphingLabel
+  - pop
+  - R.swift
 
 SPEC CHECKSUMS:
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
   LTMorphingLabel: bc170be74b219b7dae0e5543a44676d16da70ff7
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  R.swift: 207a372a2b5977caef440c696a368009460641d1
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
 
-PODFILE CHECKSUM: fd2e2116441957e67db7a414266b303d39da6291
+PODFILE CHECKSUM: 297f3e627c1ce9de0d0961e71f2f2456be1d2b2e
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
