@@ -20,6 +20,8 @@
 		BC57139A1EAB0A6A00A74699 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC5713991EAB0A6A00A74699 /* ClockUITests.swift */; };
 		BC86BE6B1EBDA95E008A81BB /* Speech.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC86BE6A1EBDA95E008A81BB /* Speech.swift */; };
 		BCC57E391EB08B55007DCE51 /* InkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC57E381EB08B55007DCE51 /* InkViewController.swift */; };
+		BCFC3A031EBF01D10090CA10 /* OneHour.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BCFC3A021EBF01D10090CA10 /* OneHour.mp3 */; };
+		BCFC3A061EBF020F0090CA10 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCFC3A051EBF020F0090CA10 /* BackgroundTask.swift */; };
 		E9B888068BF6F186096713F7 /* Pods_ClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4401763A7DE1A07DCE1F0EEA /* Pods_ClockTests.framework */; };
 		EED22CC363DB3D44E1E52E80 /* Pods_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 241B68800228A66D7A0D48B7 /* Pods_Clock.framework */; };
 /* End PBXBuildFile section */
@@ -82,6 +84,8 @@
 		BC57139B1EAB0A6A00A74699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC86BE6A1EBDA95E008A81BB /* Speech.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Speech.swift; sourceTree = "<group>"; };
 		BCC57E381EB08B55007DCE51 /* InkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InkViewController.swift; sourceTree = "<group>"; };
+		BCFC3A021EBF01D10090CA10 /* OneHour.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OneHour.mp3; sourceTree = "<group>"; };
+		BCFC3A051EBF020F0090CA10 /* BackgroundTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
 		C697A21132F771A570394103 /* Pods-Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Clock/Pods-Clock.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -211,6 +215,8 @@
 				BC38E7B01EAB4DB400EDB138 /* Extension */,
 				BC7D11661EB82235000CDBF7 /* Font */,
 				BC86BE691EBDA8D1008A81BB /* Speech */,
+				BCFC3A011EBF01D10090CA10 /* Resource */,
+				BCFC3A041EBF02050090CA10 /* BackgroundTask */,
 				BC5713791EAB0A6A00A74699 /* AppDelegate.swift */,
 				BC57137D1EAB0A6A00A74699 /* Main.storyboard */,
 				BC5713801EAB0A6A00A74699 /* Assets.xcassets */,
@@ -254,6 +260,22 @@
 				BC86BE6A1EBDA95E008A81BB /* Speech.swift */,
 			);
 			path = Speech;
+			sourceTree = "<group>";
+		};
+		BCFC3A011EBF01D10090CA10 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC3A021EBF01D10090CA10 /* OneHour.mp3 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BCFC3A041EBF02050090CA10 /* BackgroundTask */ = {
+			isa = PBXGroup;
+			children = (
+				BCFC3A051EBF020F0090CA10 /* BackgroundTask.swift */,
+			);
+			path = BackgroundTask;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,6 +359,11 @@
 						DevelopmentTeam = 5LFK4YAZVE;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					BC5713891EAB0A6A00A74699 = {
 						CreatedOnToolsVersion = 8.3.1;
@@ -380,6 +407,7 @@
 				BC4A88F91EBD762B007F93BB /* duanNing.ttf in Resources */,
 				BC5713841EAB0A6A00A74699 /* LaunchScreen.storyboard in Resources */,
 				BC5713811EAB0A6A00A74699 /* Assets.xcassets in Resources */,
+				BCFC3A031EBF01D10090CA10 /* OneHour.mp3 in Resources */,
 				BC57137F1EAB0A6A00A74699 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,6 +587,7 @@
 				BC57137A1EAB0A6A00A74699 /* AppDelegate.swift in Sources */,
 				BC38E78F1EAB3DB200EDB138 /* MainViewController.swift in Sources */,
 				BC4A88FC1EBD78A9007F93BB /* R.generated.swift in Sources */,
+				BCFC3A061EBF020F0090CA10 /* BackgroundTask.swift in Sources */,
 				BC86BE6B1EBDA95E008A81BB /* Speech.swift in Sources */,
 				BC38E7B21EAB4DBF00EDB138 /* StringExtension.swift in Sources */,
 				BCC57E391EB08B55007DCE51 /* InkViewController.swift in Sources */,

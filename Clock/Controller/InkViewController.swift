@@ -10,7 +10,7 @@ import UIKit
 import DropDown
 import pop
 
-class InkViewController: UIViewController {
+class InkViewController: UIViewController, BackgroundTaskDelegate {
 
     @IBOutlet weak var speckButton: UIButton!
     
@@ -52,9 +52,6 @@ class InkViewController: UIViewController {
     /// 报时间隔时间
     var intervalTime = "2"
     
-    /// 计时器
-    var timer: Timer!
-    
     /// 是否播报
     var isSpeak = false
     
@@ -62,7 +59,7 @@ class InkViewController: UIViewController {
         super.viewDidLoad()
 
         setDropDown()
-        timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(updateTime), userInfo: nil, repeats: true)
+        setBackGroundTask()
     }
     
     func setDropDown() {
@@ -73,6 +70,13 @@ class InkViewController: UIViewController {
         dropDown.selectionAction = { [unowned self] (index: Int, item: String) in
             self.intervalTime = item
         }
+    }
+    
+    func setBackGroundTask() {
+        let backgroundTask = BackgroundTask()
+        backgroundTask.config()
+        backgroundTask.delegate = self
+        backgroundTask.start()
     }
     
     func updateTime() {
@@ -89,8 +93,7 @@ class InkViewController: UIViewController {
         secondUnitsDigit.image = UIImage(named: second.substring(from: 1))
         
         if isSpeak {
-            print("播报")
-            //speckWhenOpportunity(minute: minute as String, second: second as String)
+            speckWhenOpportunity(hour: hour as String, minute: minute as String, second: second as String)
         }
     }
     
@@ -104,18 +107,30 @@ class InkViewController: UIViewController {
         return array as Array<NSString>
     }
     
-    func speckWhenOpportunity(minute: String, second: String) {
+    func speckWhenOpportunity(hour: String, minute: String, second: String) {
         let secondNum = Int(second)!
         
+        // 秒为0
         if secondNum == 0 {
             let minuteNum = Int(minute)!
-            speech.speck(string: "\(minuteNum)分")
+            
+            // 分钟为0
+            if minuteNum == 0 {
+                let hourNum = Int(hour)!
+                speech.speck(string: "\(hourNum)点")
+            } else {
+                speech.speck(string: "\(minuteNum)分")
+            }
         } else if secondNum % Int(intervalTime)! == 0 {
-            speech.speck(string: "\(secondNum)秒")
+            speech.speck(string: "\(secondNum)")
         }
     }
     
-    
+    // MARK: - BackgroundTaskDelegate
+    func task() {
+        
+        updateTime()
+    }
 
     /*
     // MARK: - Navigation
